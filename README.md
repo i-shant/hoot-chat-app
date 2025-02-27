@@ -49,10 +49,11 @@ MERN Chat app with features like authentication, real-time messaging, typing ind
 
 ### Screenshots
 
-<video width="640" height="360" controls>
-  <source src="https://res.cloudinary.com/doeinsql7/video/upload/du_66/v1740649814/hoot-desktop-demo_w4rzpl.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+#### Demo
+
+Click to watch the full video
+
+[![Demo](https://res.cloudinary.com/doeinsql7/image/upload/v1740656713/trimmed_video_mdbwya.gif)](https://res.cloudinary.com/doeinsql7/video/upload/du_66/v1740649814/hoot-desktop-demo_w4rzpl.webm)
 
 ![Desktop Notification Screenshot](https://raw.githubusercontent.com/i-shant/hoot-chat-app/refs/heads/main/screenshots/desktop-notification.png?token=GHSAT0AAAAAAC4VQMVDJZMS77AIBUOT4WCSZ6AJR6Q)
 
