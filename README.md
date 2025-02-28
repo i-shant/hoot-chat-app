@@ -55,16 +55,16 @@ Click to watch the full video
 
 [![Demo](https://res.cloudinary.com/doeinsql7/image/upload/v1740656713/trimmed_video_mdbwya.gif)](https://res.cloudinary.com/doeinsql7/video/upload/du_66/v1740649814/hoot-desktop-demo_w4rzpl.webm)
 
-![Desktop Notification Screenshot](https://raw.githubusercontent.com/i-shant/hoot-chat-app/refs/heads/main/screenshots/desktop-notification.png?token=GHSAT0AAAAAAC4VQMVDJZMS77AIBUOT4WCSZ6AJR6Q)
+![Desktop Notification Screenshot](https://raw.githubusercontent.com/i-shant/hoot-chat-app/refs/heads/main/screenshots/desktop-notification.png)
 
-![Desktop Optimistic Update Screenshot](https://raw.githubusercontent.com/i-shant/hoot-chat-app/refs/heads/main/screenshots/desktop-optimistic-update.png?token=GHSAT0AAAAAAC4VQMVDKE2EHVT73IOPT4ISZ6AJSLA)
+![Desktop Optimistic Update Screenshot](https://raw.githubusercontent.com/i-shant/hoot-chat-app/refs/heads/main/screenshots/desktop-optimistic-update.png)
 
-![Desktop Chat Light Screenshot](https://raw.githubusercontent.com/i-shant/hoot-chat-app/refs/heads/main/screenshots/desktop-chat-light.png?token=GHSAT0AAAAAAC4VQMVCB7KFKB5IYMDMBQ2GZ6AJS4Q)
+![Desktop Chat Light Screenshot](https://raw.githubusercontent.com/i-shant/hoot-chat-app/refs/heads/main/screenshots/desktop-chat-light.png)
 
 <div>
-  <img alt='Mobile Typing Screenshot' src='https://raw.githubusercontent.com/i-shant/hoot-chat-app/refs/heads/main/screenshots/mobile-typing.png?token=GHSAT0AAAAAAC4VQMVDYD26KDTRR3UCDBJUZ6AJTRA' width='45%'/>
+  <img alt='Mobile Typing Screenshot' src='https://raw.githubusercontent.com/i-shant/hoot-chat-app/refs/heads/main/screenshots/mobile-typing.png' width='45%'/>
   &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt='Mobile Typing Sidebar Screenshot' src='https://raw.githubusercontent.com/i-shant/hoot-chat-app/refs/heads/main/screenshots/mobile-typing-sidebar.png?token=GHSAT0AAAAAAC4VQMVD2GCRPNJL5VM674UEZ6AJTTA' width='45%'/>
+  <img alt='Mobile Typing Sidebar Screenshot' src='https://raw.githubusercontent.com/i-shant/hoot-chat-app/refs/heads/main/screenshots/mobile-typing-sidebar.png' width='45%'/>
 </div>
 
 ### Links
