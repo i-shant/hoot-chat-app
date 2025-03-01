@@ -1,6 +1,9 @@
 import type { IUser, IUserMethods, UserModel } from "../types";
 import { model, Schema } from "mongoose";
-import { compare, genSalt, hash } from "bcryptjs";
+import { compare, genSalt, hash, setRandomFallback } from "bcryptjs";
+import crypto from "crypto";
+
+setRandomFallback((len) => Array.from(crypto.randomBytes(len)));
 
 const userSchema = new Schema<IUser, UserModel, IUserMethods>(
   {
