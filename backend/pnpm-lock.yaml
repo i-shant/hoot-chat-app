@@ -12,8 +12,8 @@ importers:
         specifier: ^5.1.9
         version: 5.1.9
       bcryptjs:
-        specifier: ^3.0.1
-        version: 3.0.1
+        specifier: ^3.0.0
+        version: 3.0.0
       cookie-parser:
         specifier: ^1.4.7
         version: 1.4.7
@@ -321,8 +321,8 @@ packages:
     resolution: {integrity: sha512-lGe34o6EHj9y3Kts9R4ZYs/Gr+6N7MCaMlIFA3F1R2O5/m7K06AxfSeO5530PEERE6/WyEg3lsuyw4GHlPZHog==}
     engines: {node: ^4.5.0 || >= 5.9}
 
-  bcryptjs@3.0.1:
-    resolution: {integrity: sha512-iY+rRoR0bToRe8LTJkVX2gawo8gmgDQbiFsaKy8fVuG3WXekEQrjasfmWIbJxJHttEKPa+xPxbw3GROnJSmu0A==}
+  bcryptjs@3.0.0:
+    resolution: {integrity: sha512-Q2vVGpGC7B7m9wggpcA5lq4OYR5OS1nrXoUpnH9MmogXU8HpxzKg63uxtCrLebY5v/y3o0r7JcGCpR/vTGGn7A==}
     hasBin: true
 
   binary-extensions@2.3.0:
@@ -1655,7 +1655,7 @@ snapshots:
 
   base64id@2.0.0: {}
 
-  bcryptjs@3.0.1: {}
+  bcryptjs@3.0.0: {}
 
   binary-extensions@2.3.0: {}
 
