@@ -13,7 +13,6 @@
   "license": "ISC",
   "packageManager": "pnpm@10.5.0",
   "dependencies": {
-    "@vercel/node": "^5.1.9",
     "bcryptjs": "^3.0.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",

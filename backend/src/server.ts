@@ -11,7 +11,6 @@ import chatRouter from "./routes/chat.route";
 import messageRouter from "./routes/message.route";
 import notificationRouter from "./routes/notification.route";
 import { app, io, onConnection, server } from "./config/socket";
-import { VercelRequest, VercelResponse } from "@vercel/node";
 
 const PORT = process.env.PORT || 5000;
 
@@ -40,7 +39,3 @@ connectDB().then(() => {
     console.log(`Server started on port ${PORT}`);
   });
 });
-
-export default (req: VercelRequest, res: VercelResponse) => {
-  server.emit("request", req, res);
-};
