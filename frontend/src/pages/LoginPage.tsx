@@ -32,6 +32,21 @@ export default function LoginPage() {
     login({ email, password });
   }
 
+  function handleGuestLogin() {
+    const guestEmail = import.meta.env.VITE_GUEST_EMAIL;
+    const guestPass = import.meta.env.VITE_GUEST_PASS;
+
+    if (!guestEmail || !guestPass) {
+      toast.error("Invalid Guest Email or Password!");
+      return;
+    }
+
+    login({
+      email: guestEmail,
+      password: guestPass,
+    });
+  }
+
   return (
     <div className="flex flex-col gap-6">
       <Card>
@@ -76,13 +91,29 @@ export default function LoginPage() {
                   </Button>
                 </div>
               </div>
-              <Button type="submit" className="w-full" disabled={isPending}>
-                {isPending ? (
-                  <Loader className="animate-spin" />
-                ) : (
-                  <span>Login</span>
-                )}
-              </Button>
+              <div className="w-full space-y-3">
+                <Button type="submit" className="w-full" disabled={isPending}>
+                  {isPending ? (
+                    <Loader className="animate-spin" />
+                  ) : (
+                    <span>Login</span>
+                  )}
+                </Button>
+
+                <Button
+                  variant="secondary"
+                  type="button"
+                  className="w-full"
+                  disabled={isPending}
+                  onClick={handleGuestLogin}
+                >
+                  {isPending ? (
+                    <Loader className="animate-spin" />
+                  ) : (
+                    <span>Guest Login</span>
+                  )}
+                </Button>
+              </div>
             </div>
             <div className="mt-4 text-center text-sm">
               Don&apos;t have an account?{" "}
